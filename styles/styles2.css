@@ -99,8 +99,6 @@ section.landing .date .month {
 section.landing .date .time {
   font-size: 22px;
 }
-section.landing .header {
-}
 
 /* /////// WHERE */
 section.where {
@@ -131,9 +129,6 @@ section.park span.lou{
   font-size: 24px;
   
 }
-section.park span.lou{
-  /* align-self: flex-end; */
-}
 /* /////// BYOB */
 section.byob {
   display: flex;
@@ -159,8 +154,9 @@ div.content section .img-div span.here {
   position: absolute;
   bottom: 42%;
   right: 10px;
-  text-decoration: #ffd1dc underline;
+  text-decoration: #0433BF underline;
   align-self: center;
+  color: #0433BF;
 }
 div.content section img {
   width: 100%;
