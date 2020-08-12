@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+/*//// mini-reset ////*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+body {
+  color: #4c4e4d;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #ffd1dc;
+}
+.border{
+  border:1px solid red;
+}
+.border2{
+  border:2px dotted blue;
+}
+/* .border3{
+  border:1px solid pink;
+}
+.border4{
+  border:1px solid black;
+} */
+.wireframe {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('./zilker-park.jpg');
+  background-size: cover;
+}
+.maxWidth_1024 {
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding: 20px 0;
+  height: 100vh;
+}
+main {
+  height: 100vh;
+  width: 80%;
+  transform: rotate(-4deg);
+  /* margin: 20px 0; */
+  overflow: scroll;
+  box-shadow: 11px 9px 5px 0 rgba(49, 49, 93, 0.1), 17px 17px 0px 0 rgba(0, 0, 0, 0.08);
+}
+/* main:before {
+  content: '';
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, #654ea3, #eaafc8); 	
+    transform: skewY(-11deg);
+} */
+div.content {
+  /* background-color: #fcfdff; */
+  background-color: #ffd1dcda;
+  display: flex;
+  flex-direction: column;
+  /* transform: rotate(4deg); */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  font-family: 'Concert One', cursive;
+  padding: 0 12px;
+  /* transform: rotate(-4deg); */
+}
+div.content section:nth-of-type(1) {
+  height: calc(100vh - 60px);
+}
+div.content section {
+  min-height: 600px;
+  position: relative;
+  margin-bottom: 8em;
+}
+div.content section span {
+text-transform: uppercase;
+font-size: 42px;
+}
+/* /////// LANDING */
+section.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+section.landing .date,
+section.landing .header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 48px;
+}
+section.landing .date {
+  margin-bottom: 64px;
+}
+section.landing .date .month {
+  font-size: 32px;
+}
+section.landing .header {
+}
+
+/* /////// WHERE */
+section.where {}
+section.where span.green {
+  font-size: 28px;
+}
+/* /////// PARK */
+section.park {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.park .img-div .rocks{
+  position: absolute;
+  top: 208px;
+  left: 14px;
+  width: 68px;
+  font-size: 14px;
+}
+section.park span.park-rocks,
+section.park span.lou{
+  font-size: 24px;
+  
+}
+section.park span.lou{
+  align-self: flex-end;
+}
+/* /////// BYOB */
+section.byob {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.content section .img-div{
+  width: 250px;
+  height: 100%;
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+div.content section .img-div span.here {
+  font-size: 14px;
+  position: absolute;
+  bottom: 42%;
+  right: 10px;
+  text-decoration: #ffd1dc underline;
+  align-self: center;
+}
+div.content section img {
+  width: 100%;
+}
