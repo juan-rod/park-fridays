@@ -62,7 +62,7 @@ div.content {
   display: flex;
   flex-direction: column;
   font-family: 'Concert One', cursive;
-  padding: 0 12px;
+  padding: 0 24px;
 }
 div.content section:nth-of-type(1) {
   height: calc(100vh - 60px);
